@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "request": "launch",
+            "name": "Start Deno Debugging",
+            "program": "${workspaceFolder}/main.ts",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "C:\\Users\\rafael.schung\\.deno\\bin\\deno.exe",
+            "runtimeArgs": [
+                "run",
+                "--allow-all",
+                "--inspect-brk",
+            ],
+            "attachSimplePort": 9229
+        }
+    ]
+}
